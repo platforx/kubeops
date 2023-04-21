@@ -1,0 +1,13 @@
+{
+  "appName": "podinfo-dev",
+  "userGivenName": "podinfo-dev",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/podinfo",
+  "srcRepoURL": "https://github.com/platforx/kubeops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}

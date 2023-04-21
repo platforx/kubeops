@@ -1,0 +1,11 @@
+{
+  "appName": "metrics-server",
+  "userGivenName": "metrics-server",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/metrics-server/overlays/tools",
+  "srcRepoURL": "https://github.com/platforx/kubeops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}

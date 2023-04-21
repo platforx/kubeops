@@ -1,0 +1,11 @@
+{
+  "appName": "cert-manager",
+  "userGivenName": "cert-manager",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/cert-manager/overlays/tools",
+  "srcRepoURL": "https://github.com/platforx/kubeops.git",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}

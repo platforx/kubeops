@@ -1,0 +1,6 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+#- metrics-server.yaml
+#   look this- https://github.com/kubernetes-sigs/metrics-server/issues/196
+- https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
