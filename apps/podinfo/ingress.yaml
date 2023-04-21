@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   rules:
-  - host: argocd.dell
+  - host: podinfo.dell
     http:
       paths:
       - path: /
