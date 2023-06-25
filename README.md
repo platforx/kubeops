@@ -15,4 +15,4 @@ Clone the repo and using a Linux distro with bash shell, run:
 
 export GIT_TOKEN="<your Github token>"     /* or set it value in 'infra/scripts/autopilot-bootstrap.sh' */
 
-./infra/build_k8s.sh
+./infra/build_k8s.sh <k3d|kind>    /* param.1: set the platform.

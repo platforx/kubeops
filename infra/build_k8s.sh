@@ -1,4 +1,14 @@
 #!/bin/bash
+
+set -eux
+
+_PLATF=$1
+
+
 cd infra
-./scripts/build-environment.sh k3d cluster-1 false
+
+[ -z "$_PLATF" ] && echo "Error: Missing platform... " && exit
+
+./scripts/build-environment.sh $_PLATF cluster-1 false
+
 cd -
